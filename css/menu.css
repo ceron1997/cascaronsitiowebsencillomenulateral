@@ -1,0 +1,53 @@
+.menu{
+    width: 25%;
+    height: 100vh;
+    box-sizing: border-box;
+    max-width: 200px;
+    background: #2C3639;
+    color: white;
+    
+}
+.portafolio .menu .inicio img{
+    max-height: 100vh;
+    margin-left: 15px;
+}
+.menu {
+    width: 100%;
+    padding-left: 10px;
+    overflow-y: auto; 
+    overflow-x: hidden;
+}
+
+.menu menu ul {
+    width: 100%;
+    padding: 15px;
+}
+.menu menu ul li {
+    width: 100%;
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    list-style: none;
+
+}
+
+.menu menu ul li:hover {
+    width: 75%;
+    cursor: pointer;
+    font-weight: 800;
+    font-size: 15pt;
+    border-radius: 20px;
+    border: wheat .5px solid;
+
+}
+
+.inicio{
+    height: 5vh;
+ cursor: pointer;  
+ padding-bottom: 10px; 
+  /* padding: 10px 0px; */
+  text-transform: uppercase;
+  border-bottom:  1px solid white;
+  display: flex;
+  flex-direction: row;
+}
